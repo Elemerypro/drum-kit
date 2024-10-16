@@ -13,58 +13,60 @@
 
 <body>
     <header>
-        <div class="container ">
-            <div class="row keys justify-content-center gx-0 ">
+        <div class="container text-center">
+            <div class="row keys text-center justify-content-center ">
                 <div class="col-4 ">
-                    <div class="key">
+                    <div class="key" data-key="65">
                         <kbd>A <span>CLAP</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4  ">
-                    <div class="key">
+                <div class="col-4" >
+                    <div class="key" data-key="83">
                         <kbd>S <span>HIHAT</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4 ">
-                    <div class="key">
+                <div class="col-4 " >
+                    <div class="key" data-key="68">
                         <kbd>D <span>KICK</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4 ">
-                    <div class="key">
+                <div class="col-4 " >
+                    <div class="key" data-key="70">
                         <kbd>F <span>OPENHAT</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4 ">
-                    <div class="key ">
-                        <kbd>F <span>OPENHAT</span></kbd>
+               
+                <div class="col-4 " >
+                    <div class="key" data-key="71">
+                        <kbd>G <span>BOOM</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4 ">
-                    <div class="key">
+               
+                <div class="col-4 " >
+                    <div class="key" data-key="72">
                         <kbd>H <span>RIDE</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4 ">
-                    <div class="key">
+                <div class="col-4 " >
+                    <div class="key" data-key="74">
                         <kbd>J <span>SNARE</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4 ">
-                    <div class="key gx-0">
+                <div class="col-4 " >
+                    <div class="key" data-key="75">
                         <kbd>K <span>TOM</span></kbd>
                     </div>
                     
                 </div>
-                <div class="col-4 ">
-                    <div class="key">
+                <div class="col-4 " >
+                    <div class="key" data-key="76">
                         <kbd>L <span>TINK</span></kbd>
                     </div>
                     
@@ -74,6 +76,17 @@
             </div>
         </div>
     </header>
+    <section>
+        <audio data-key="65" src="./sounds/clap.wav"></audio>
+        <audio data-key="83" src="./sounds/hihat.wav"></audio>
+        <audio data-key="68" src="./sounds/kick.wav"></audio>
+        <audio data-key="70" src="./sounds/openhat.wav"></audio>
+        <audio data-key="71" src="./sounds/boom.wav"></audio>
+        <audio data-key="72" src="./sounds/ride.wav"></audio>
+        <audio data-key="74" src="./sounds/snare.wav"></audio>
+        <audio data-key="75" src="./sounds/tom.wav"></audio>
+        <audio data-key="76" src="./sounds/tink.wav"></audio>
+    </section>
 </body>
 <script src="./js/drumkit.js"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
